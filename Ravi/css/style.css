@@ -1,0 +1,164 @@
+	
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header {
+	border-bottom: 1px solid #cccccc;
+	min-height: 70px;
+}
+
+#footer {
+	color: #EEEEEE;
+	background-color: #333333;
+	min-height: 70px;
+}
+
+.bg-light {
+	background-color: red;
+	color: black;
+}
+
+.bg-dark {
+	background-color: red;
+	color: white;
+}
+
+.text-light {
+	color: red;
+}
+
+
+.text-dark {
+	color: red;
+}
+.menu-logo {
+	margin-top: 15px;
+}
+.nav {
+	min-height: 70px;
+}
+.nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav-right {
+	float: right;
+}
+
+.nav a {
+	display: inline-block;
+	font-size: 14px;
+	padding: 25px 13px 25px;
+	background-color:white;
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	background: #0088cc;
+	color: #eee;
+}
+#header .menu-logo {
+	width:30%;
+	float: left;
+}
+
+#header .nav {
+ float: left;
+ width: 70%;	
+}
+
+.content {
+	min-height: 1230px;
+}
+.content .inner-content {
+	float: left;
+	width: 70%;
+	min-height: 1200px;
+	padding-top: 30px;
+}
+.content .right-side-panel {
+	background-image: url('../images/side-panel.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	width: 30%;
+	min-height: 1200px;
+	padding-top: 30px;
+}
+#footer .right, #footer .left{
+	width: 50%;
+	float:left;
+	padding: 10px 0;
+}
+
+#footer .left { 
+	color: #888888;
+    font-size: 11px;
+	padding-top: 20px;
+}
+#footer .right {
+	text-align: right;
+}
+#footer .right a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer .right a:hover {
+	color: #3498db;
+
+}
+#footer .right .fa {
+	font-size: 24px;
+	padding: 5px 15px;
+}	
+
+
+.form-element {
+	color: white;
+	padding: 10px 24px;
+}
+.form-element label{
+	width: 100%;
+}
+.form-element .form-input{
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 35px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.btn {
+	padding: 15px 30px;
+	border: 0;
+	font-size: 14px;
+    font-weight: 400;
+	background-color: #3498db;
+	color: white;
+}
+.table td, .table th{
+	padding: 15px 15px;
+}
