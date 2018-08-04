@@ -29,7 +29,7 @@
 		<div class="row" >
 			<div class="inner-content" >
           <div class="row">
-				<table  class="table" style="width:80%" border="2" cellspacing="0" >
+				<table  class="table" style="width:100%" border="2" cellspacing="0" >
 				  <tr>
 					<th rowspan="2" >Name	</th>
 					<th colspan="2">Department</th> 
@@ -75,9 +75,13 @@
 						<input type="" name="" id="" class="form-input" placeholder="Enter Your Name" >
 					</div>
 					<div class="form-element" >
-						<label for="" >Department:</label>
-						<input type="" name="" id="" class="form-input" placeholder="Select your department" >
-					</div>
+						<label for="department" >Department:</label>
+            <select name="department" class="form-input">
+              <option value="Learning & Development">Learning & Development</option>
+              <option value="Development">Development</option>
+              <option value="QA Testing">QA Testing</option>
+            </select>
+          </div>
 					<div class="form-element" >
 						<label for="phone" >Contact Number:</label>
 						<input type="number" name="phone" id="phone" class="form-input" placeholder="Enter Contact Number" >
